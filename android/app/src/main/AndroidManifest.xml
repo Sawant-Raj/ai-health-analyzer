@@ -1,26 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smart_scale">
 
-    <!-- Health Connect permissions -->
-    <uses-permission android:name="android.permission.health.READ_HEALTH_DATA_HISTORY"/>
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-
-    <uses-permission android:name="android.permission.health.READ_WEIGHT" />
-    <uses-permission android:name="android.permission.health.WRITE_WEIGHT" />
-
-    <!-- Body Fat % -->
-    <uses-permission android:name="android.permission.health.READ_BODY_FAT" />
-    <uses-permission android:name="android.permission.health.WRITE_BODY_FAT" />
-
-    <!-- Basal Metabolic Rate -->
-    <uses-permission android:name="android.permission.health.READ_BASAL_METABOLIC_RATE" />
-    <uses-permission android:name="android.permission.health.WRITE_BASAL_METABOLIC_RATE" />
-
-    <!-- Body Water Mass -->
-    <uses-permission android:name="android.permission.health.READ_BODY_WATER_MASS" />
-    <uses-permission android:name="android.permission.health.WRITE_BODY_WATER_MASS" />
-
     <application
         android:label="smart_scale"
         android:name="${applicationName}"
